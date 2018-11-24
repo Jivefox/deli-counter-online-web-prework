@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(katz_deli)
     current_line = 'The line is currently:'
-    if katz_deli.length >= 1
+    if katz_deli.length > 0
       katz_deli.each.with_index(1) do |name, index|
       current_line << " #{index}. #{name}"
     end
